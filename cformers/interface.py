@@ -88,9 +88,6 @@ class ModelUrlMap:
             if mode_str != ""]
 
 MAP_MODEL_TO_URL = { # Replace "/" with "-.-" in the model name
-    'TheBloke/Yarn-Mistral-7B-128k-GGUF': ModelUrlMap(
-        cpp_model_name="mistral",
-        int4_fixed_zero="https://huggingface.co/ayushk4/EleutherAI-.-gpt-j-6B/resolve/main/int4_fixed_zero.bin"),
     
     # GPT-J
     'EleutherAI/gpt-j-6B': ModelUrlMap(
